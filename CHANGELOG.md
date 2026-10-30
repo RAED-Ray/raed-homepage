@@ -1,5 +1,12 @@
 # CHANGELOG
 
-## [Unreleased] 
+## [Unreleased] 2026-10-29
 ### Added 
-- 新增个人主页界面，使用GitHub Pages代理
+- 个人主页项目创建，使用GitHub Pages代理
+
+## [0.1.1] 2026-10-30
+### Fix
+- 性能优化，原始图片全部转为AVIF格式，占用空间大幅减小
+### Added
+- 新增了GitHub Pages端标志，以方便后续区分服务器端
+- 联系方式新增QQ二维码，同时将QQ邮箱直接展示出来
