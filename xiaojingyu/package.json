@@ -1,0 +1,14 @@
+{
+  "name": "xiaojingyu-public-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "小鲸鱼 BOT 公开只读用量看板，适用于 GitHub Pages 子目录。",
+  "scripts": {
+    "export": "node tools/export-data.cjs",
+    "serve": "node tools/serve.cjs",
+    "check": "node --check app.js && node --check tools/export-data.cjs && node --check tools/serve.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

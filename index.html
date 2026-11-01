@@ -423,6 +423,8 @@
     }
 
     .project-card:first-child .project-visual { aspect-ratio: 2 / 1; }
+    .project-image { position: absolute; top: 0; left: 0; width: 100%; height: 113%; object-fit: cover; }
+    .project-visual .project-type { position: relative; z-index: 1; }
     .project-visual::before {
       content: "";
       position: absolute;
@@ -710,21 +712,22 @@
 
       <div class="projects-grid">
         <article class="project-card reveal">
-          <div class="project-visual" style="--project-color: #b86047;" data-label="Project One">
-            <span class="project-type">QQ BOT · 后台运行</span>
+          <div class="project-visual">
+            <img class="project-image" src="assets/project1.avif" alt="QQ BOT 小鲸鱼项目介绍图" width="1586" height="914" loading="lazy" decoding="async">
+            <!-- <span class="project-type">QQ BOT · 后台运行</span> -->
           </div>
           <div class="project-info">
             <h3>QQ BOT 小鲸鱼</h3>
-            <a class="project-link" href="#contact" aria-label="了解项目一">
+            <a class="project-link" href="./xiaojingyu/" aria-label="了解项目一">
               了解项目
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
             </a>
-            <p>看看小鲸鱼的生活？这里是BOT的总览，采用林鱼RelyLinYu的Ubuntu开源机器人架构，此版本为我移植的Win版本。</p>
+            <p>看看小鲸鱼的生活？这里展示的是BOT的后端数据快照，采用林鱼RelyLinYu的开源机器人架构。</p>
           </div>
         </article>
 
         <article class="project-card reveal">
-          <div class="project-visual" style="--project-color: #55776b;" data-label="Project Two">
+          <div class="project-visual" style="--project-color: #55776b;" data-label="Stay tuned ">
             <span class="project-type">摄影作品 · 审美提升</span>
           </div>
           <div class="project-info">
@@ -738,7 +741,7 @@
         </article>
 
         <article class="project-card reveal">
-          <div class="project-visual" style="--project-color: #777052;" data-label="Project Three">
+          <div class="project-visual" style="--project-color: #777052;" data-label="Stay tuned">
             <span class="project-type">奇思妙想 · 创意发明</span>
           </div>
           <div class="project-info">
