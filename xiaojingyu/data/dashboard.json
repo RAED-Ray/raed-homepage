@@ -1,31 +1,19 @@
 {
   "schemaVersion": 1,
   "source": "snapshot",
-  "generatedAt": "2026-10-30T10:54:20.601Z",
+  "generatedAt": "2026-11-01T11:25:12.595Z",
   "budget": {
-    "daySpent": 0.150636,
+    "daySpent": 0.116748,
     "dailyLimit": 3,
-    "dayLeft": 2.849364,
-    "spentYuan": 1.5152,
-    "totalLimit": 30,
-    "dayCalls": 144,
+    "dayLeft": 2.883252,
+    "spentYuan": 0.217678,
+    "totalLimit": 50,
+    "dayCalls": 118,
     "dailyCallLimit": 1600,
-    "visionUsed": 630,
+    "visionUsed": 797,
     "visionLimit": 800
   },
   "usage": [
-    {
-      "date": "2026-10-01",
-      "md": "10-01",
-      "calls": 0,
-      "spent": 0
-    },
-    {
-      "date": "2026-10-02",
-      "md": "10-02",
-      "calls": 0,
-      "spent": 0
-    },
     {
       "date": "2026-10-03",
       "md": "10-03",
@@ -191,8 +179,20 @@
     {
       "date": "2026-10-30",
       "md": "10-30",
-      "calls": 144,
-      "spent": 0.150636
+      "calls": 185,
+      "spent": 0.18995
+    },
+    {
+      "date": "2026-10-31",
+      "md": "10-31",
+      "calls": 84,
+      "spent": 0.077299
+    },
+    {
+      "date": "2026-11-01",
+      "md": "11-01",
+      "calls": 115,
+      "spent": 0.114473
     }
   ]
 }
